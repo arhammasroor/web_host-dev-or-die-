@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="body">
+   
+
+    <div class="login-container">
+        <h2>L<b class="glow" style="color: rgb(209, 178, 22);"><i class="fa-solid fa-earth-oceania"></i></b>gin</h2>
+        <div class="car">
+            <img src="a.png" alt="car" class="car-img">
+        </div>
+        
+        <form action="/login" method="post">
+            <div class="error">
+                <%= send.content %>
+            </div>
+            
+           
+            
+            <input type="email" name="email" placeholder="Email" required >
+            <input type="password"  name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+            <br><hr>
+            
+            
+        </form>
+        <form method="get" action="/register">
+            <button>Sign Up</button>
+        </form>
+    </div>
+
+    <div class="drum">
+        <div class="stick">
+            <img src="Untitled design.png" alt="drum stick" class="stick-img">; 
+        </div>
+       
+        <img src="music logo design (2).png" alt="drum image" class="drum-img"> 
+    </div>
+    
+    </div>
+    
+
+</body>
+</html>

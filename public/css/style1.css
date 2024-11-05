@@ -1,0 +1,178 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: black !important;
+    color: #fff !important; 
+}
+
+.row{
+    padding-top: 2rem;
+}
+.container{
+    flex: 1;
+}
+.navbar{
+    height: 5rem;
+    background-color: #000;
+}
+
+.fa-compact-disc{
+    color: rgb(209, 178, 22);;
+    font-size: 3rem;
+    animation: move 2s linear infinite ;
+
+}
+
+.nav-link{
+    color: #fff !important;
+}
+
+.f-info-links,.f-info-socials,.f-info-brand {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-info-socials i{
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.f-info-links a{
+    
+    text-decoration: none;
+    color: #fff;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+    
+    
+}
+.f-info{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap; /*each elementt come in different line*/
+    justify-content: center;
+    align-items: space-evenly ;
+    height: 8rem;
+    background-color: #3e3a3ae7;
+    color: #fff;
+
+}
+.privacy{
+    padding-right: 8px;
+}
+@keyframes move {
+    0% {
+        /*Setrotationto0degrees*/
+         rotate: 0deg;
+        
+        
+        
+        
+    }
+    
+    
+
+    
+
+    100% {
+        /*Setrotationto360degrees*/
+        rotate: 360deg;
+        
+        
+        
+        
+    }
+
+}
+
+
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+    background-color: #000 !important;
+    color: white !important;
+    animation: op 1.5s linear;
+    
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+.card-text{
+    font-weight: 400 !important;
+}
+.listing-link{
+    text-decoration: none;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2 !important;
+    color: black !important;
+    background-color: #fff;
+    
+
+}
+
+.show-overlay{
+    opacity: 1  !important;
+    color: #000;
+}
+.show-overlay:hover{
+    opacity: 1 !important;
+    background-color: transparent;
+    
+
+}
+
+.show-img{
+    height: 40vh;
+}
+.form-control{
+    margin-left: 55rem;
+    
+    opacity: 1 !important;
+    color: white !important;
+}
+button:hover{
+    color: red !important;
+
+}
+
+@keyframes op {
+    0% {
+        /*Setrotationto0degrees*/
+         opacity: 0;
+        
+        
+        
+        
+    }
+    
+    50%{
+        opacity: 0.5;
+    }
+
+    
+
+    100% {
+        /*Setrotationto360degrees*/
+        opacity: 1;
+        
+        
+        
+        
+    }
+
+}
